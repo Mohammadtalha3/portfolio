@@ -1,0 +1,3 @@
+FastApi
+mysql-connector-python
+#-e .
