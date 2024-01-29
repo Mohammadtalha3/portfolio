@@ -17,12 +17,15 @@ user_details="""
 CREATE TABLE  user_details(
 id int auto_increment primary key,
 name varchar(20),
-email varchar(20),
+email varchar(50),
 address varchar(20),
 ph_no varchar(20)
 )
 
 
 """
+
+
+
 
 cursor.execute(user_details)

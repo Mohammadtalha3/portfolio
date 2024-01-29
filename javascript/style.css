@@ -1,7 +1,7 @@
-*{
+body {
     margin: 0;
     padding: 0;
-    background-color: #EAF6FF;
+    box-sizing: border-box;
 }
 
 h1{
@@ -13,11 +13,11 @@ h1{
     
 }
 .Topnav {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     margin-right: 5px;
-    margin-top: 10px;
+    margin-top: 20px;
 
 }
 .Topnav a {
@@ -35,9 +35,11 @@ h1{
 }
 
 .About{
+    height: 100vh;
+    overflow: hidden;
     position: absolute;
     left:700px;
-    margin-top: 200px;
+    margin-top: 100px;
     margin-bottom: 100px;
 }
 
@@ -46,10 +48,10 @@ h1{
 }
 #butn{
     position: absolute;
-    left:700px;
-    margin-top: 350px;
+    left:720px;
+    margin-top: 380px;
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
     background-color: black;
     color: aliceblue;
     border: none;
@@ -64,4 +66,64 @@ h1{
     margin-top: 100px;
     border-radius: 10px;
     
-} 
+/* } 
+.container {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 100px; /* Adjust as needed */
+} */
+/* 
+.About,.Education{padding: 50px;} */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+
+
+.Education{
+    min-width: 100vh;
+    
+    /* position: absolute;
+    bottom: 0;
+    margin-top: 100px;
+    left: 0;
+    width: 100%;
+    
+    padding: 50px; */
+    
+    
+    
+    
+}
+.Education, h1{
+    padding: 0;
+    margin-top: 100px;
+    margin-right: 20px;
+    width: 100%;
+
+}
+.Education,#uni_ediucation{
+
+    left: 180px;
+}
+
+
+#uni_education,.Skills{
+   position: absolute;
+   bottom: 0;
+   left: 20px ;
+   width: 100%; 
+   
+
+}
+.Skills{
+    padding: -25px;
+    margin-top: 300px;
+}
+
+

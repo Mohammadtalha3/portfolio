@@ -9,25 +9,41 @@
 <body>
 
     
+     
     <div class="Topnav">
         <img src="D:\portfolio\portfolio\images\R-removebg-preview.png" alt="logo" class="logo">
-        <a href="#home" class="active">Home</a>
-        <a href="#About">About</a>
-        <a href="#Resume">Resume</a>
-        <a href="#projects">Projects</a>
-        <a href="Contact-Info">Contact</a>
+        <a href="#home" id="Homelink">Home</a>
+        <a href="#About" id="Aboutlink">About</a>
+        <a href="#Resume" id="Resumelink">Resume</a>
+        <a href="#projects" id="projectslink">Projects</a>
+        <a href="#Contact" id="Contactlink">Contact</a>
 
     </div>
-    <div class="About">
-        <p>Name: Muhammad Talha</p>
-        <p><Address>Address:Islamabad</Address></p> 
-        <p>Email: talhamohammad766@gmail.com</p>
-        <p>ph-no: +923465244486</p>
-    </div>
-    <button id="butn">Download cv</button>
-    <img src="D:\portfolio\portfolio\images\nubelson-fernandes--Xqckh_XVU4-unsplash.jpg" alt="main-pic" id="image" >
 
-    <script src="script.js"></script>
+
+    <div class="container">  
+        <div class="About">
+            <h3><strong>About me</strong></h3>
+            <p><strong>Name:</strong> <span id="name"></span> </p>
+            <p><strong>Address:</strong> <span id="address"></span></p> 
+            <p><strong>Email:</strong><span id="email"></span>  </p>
+            <p><strong>ph-no:</strong><span id="ph_no"></span>  </p>
+        </div>
+        <button id="butn">Download cv</button>
+        <img src="D:\portfolio\portfolio\images\nubelson-fernandes--Xqckh_XVU4-unsplash.jpg" alt="main-pic" id="image" >
+
+        
+
+        <div class="Education">
+            
+            <div id="uni_education">
+                <p style="font-size: 40px;"><strong>Education</strong></p>
+            <p><strong>Bachelors Computer Science</strong></p>
+            <p>Virtual university of pakistan</p>
+            </div>
+        </div> 
     
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
