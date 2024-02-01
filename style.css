@@ -1,0 +1,508 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url('D:/portfolio/portfolio/images/annie-spratt-0ZPSX_mQ3xI-unsplash.jpg');
+}
+#container{
+    height: 100vh;
+    
+    
+    
+    /* overflow-y: scroll;
+    scroll-snap-type: y mandatory; */
+} 
+
+#navbar{
+    background-color: transparent;
+    
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    top: 0;
+    z-index: 1000;
+}
+#navbar img{
+    max-width: 150px;
+    left: 0;
+    top: 0;
+    margin-right: 1300px;
+}
+
+
+#pageselection{
+    /* position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 20px; */
+    background-color: transparent;
+    font-style: italic;
+    display: flex;
+    margin-top: -90px;
+    margin-left: 950px;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    position: fixed;
+
+}
+
+
+
+
+
+
+
+
+#pageselection a{
+    /* margin-right: 20px; */
+    color: black;
+    background-color: transparent;
+    margin: 0 10px;
+    text-decoration: none;
+    left: 5px;
+    
+    
+}
+.section{
+    margin-top: 80px;
+}
+/* #main-content{
+    height: 100vh;
+    text-align: center;
+    
+    top: 50%;
+    left: 50%;
+    margin-top: 300px;
+    transform: translate(-50%,-50%);  
+    
+}
+#main-content div{
+    font-size: 1.5rem ;
+    margin-bottom:50px;
+
+    
+} */
+
+#main-content {
+    text-align: center;
+    padding-top: 60px; 
+}
+
+#main-content div {
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+#About-me{
+    
+    margin-top: 450px;
+    text-align: center;
+    padding: 50px;
+    
+    
+    
+}
+
+#About-me p{
+    margin-top:40px ;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+#butn{
+    display: block;
+    margin-left: 580px;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+#git-butn{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 15px;
+    padding: 15px;
+    border-radius: 25px;
+    background-image:url('D:/portfolio/portfolio/images/25231.png') ;
+    background-size: cover ;
+    background-position: center;
+   
+    
+}
+
+#link-butn{
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 25px;
+    padding:15px;
+    background-image: url('D:/portfolio/portfolio/images/png-transparent-social-media-linkedin-computer-icons-logo-social-network-social-media-blue-text-trademark-thumbnail.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#resume{
+    padding: 20px;
+    margin-top: 450px;
+    margin-left: 400px;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+/*skiils Sections*/ 
+
+
+.libraries{
+    margin-top: 30px;
+}
+
+.skills-bullet{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+.Database, .Api,.Javascript{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 60px;
+    
+    
+}
+
+
+
+.progress-bar {
+    width: 100%;
+    background-color: #ddd; /* Set the background color of the progress bar container */
+    border-radius: 5px; /* Add rounded corners for aesthetics */
+    margin-top: 10px; /* Add some space between the progress bar and other elements */
+}
+
+.progess {
+    height: 20px; /* Set the height of the progress bar */
+    background-color: #4CAF50; /* Set the color of the progress bar */
+    border-radius: 5px; /* Add rounded corners for aesthetics */
+    width: 100%; /* Set the initial width of the progress bar */
+    transition: width 0.5s ease-in-out; /* Add a smooth transition effect */
+    position: relative;
+
+}
+#percent-api{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff; 
+}
+
+
+.skills{
+    margin-top:100px ;
+    display: flex;
+    
+    
+}
+h4 {
+    font-size: 2rem;
+}
+
+.skill{
+    box-shadow: 0 8px 4px rgba(0, 0, 0, 0.5);
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 100px;
+    margin-right:50px ;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+ 
+.skill img{
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+.Ml{
+    box-shadow: 0 8px 4px rgba(0, 0, 0, 0.5);
+    height: 250px ;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+    margin-right: 20px  ;
+}
+.Ml img{
+    margin-top: 5px;
+    max-height: 100%;
+    max-width: 100%;
+
+}
+
+.NLP{
+    box-shadow: 0 8px 4px rgba(0, 0, 0, 0.5);
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 100px;
+    padding: 20px;
+    margin-left: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*projects part*/
+
+/* .Project-section{
+    height: 100vh;
+    margin-top:300px ;
+}
+
+.pro-1{
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    max-width: 300px;
+    max-height: 300px;
+    
+}
+
+.pro-1 .pro-des{
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    margin-top:140px ;
+    margin-left: 180px;
+    transform: translate(-50%, -50%);
+}
+
+.pro-1:hover .pro-des{
+    opacity: 1;
+}
+
+ */
+
+
+ .projects{
+    height: 100vh;
+    margin-top: 450px;
+    padding: 40px;
+    margin-left: 380px;
+    
+   
+    
+    
+ }
+
+ .project-name label{
+    font-size: 2rem;
+    color: black;
+    
+    
+    
+ }
+
+ .project-name{
+    box-shadow: 0 8px 4px rgba(0, 0, 0, 0.4) ;
+    max-height: 300px;
+    max-width: 380px;
+    overflow: hidden;
+    transition: transform 0.5s ease-in-out; 
+    border-radius: 10px;
+
+ }
+
+
+ 
+ 
+ 
+ .project-name:hover{
+    transform: scale(1.2);
+    
+ }
+
+
+
+
+ .whatsapp-butn{
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 5px;
+
+ }
+
+ .whatsapp-butn img{
+    width: 20px;
+    height: 20px;
+    
+ }
+
+ .student-perf{
+    box-shadow: 0 8px 4px rgba(0, 0, 0, 0.4);
+    max-width: 380px;
+    max-height: 300px;
+    overflow: hidden;
+    transition: transform 0.5s ease-in-out; 
+    border-radius: 10px;    
+    margin-left: 45px;
+    
+
+ }
+
+ .student-perf label{
+    font-size: 2rem;
+ }
+ .student-perf:hover{
+    transform: scale(1.2);
+    
+ }
+
+ .student-butn{
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 5px;
+
+ }
+
+ .student-butn img{
+    width: 20px;
+    height: 20px;
+    
+ }
+
+ .row-container{
+    display: flex;
+
+    
+ }
+
+ .Text-Summerization{
+    box-shadow: 0 8px 4px rgba(0, 0, 0, 0.4);
+    max-width: 380px;
+    max-height: 350px;
+    overflow: hidden;
+    transition: transform 0.5s ease-in-out; 
+    border-radius: 10px;    
+    margin-right: 45px;
+    
+
+ }
+ .Text-Summerization:hover{
+    transform: scale(1.2);
+ }
+
+ .Text-butn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 5px;
+
+ }
+ .Text-Summerization img{
+    width: 20px;
+    height: 20px;
+    
+    
+ }
+ .Text-Summerization label{
+    font-size: 2rem;
+ }
+
+ .row2-project{
+    margin-top: 30px;
+    display: flex;
+    
+ }
+ 
+ .Text-Translation{
+    box-shadow: 0 8px 4px rgba(0, 0, 0, 0.4);
+    max-width: 380px;
+    max-height: 350px;
+    overflow: hidden;
+    transition: transform 0.5s ease-in-out; 
+    border-radius: 10px;    
+    margin-right: 45px;
+
+ }
+ .Text-Translation:hover{
+    transform: scale(1.2);
+ }
+ .Text-Translation img{
+    width: 20px;
+    height: 20px;
+    
+    
+ }
+ .Text-Translation label{
+    font-size: 2rem;
+ }
+
+ .others{
+    margin-top: 30px;
+ }
+ .others label{
+    font-size: 2rem;
+ }
+
+ .others li{
+    font-size: 1.5rem;
+ }
+
+ #Certifications {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content horizontally */
+    justify-content: center; /* Center the content vertically */
+    height: 100vh;
+}
+
+.cert li{
+    font-size: 1.5rem;
+}
+
+.cert label {
+    font-size: 2rem;
+    margin-right: 320px;
+}
+
+ 
+
+
+
+
+
+
+
