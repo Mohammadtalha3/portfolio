@@ -127,7 +127,7 @@ body{
     margin-left: 15px;
     padding: 15px;
     border-radius: 25px;
-    background-image:url('images/25231.png') ;
+    background-image: 'images/25231.png' ;
     background-size: cover ;
     background-position: center;
    
@@ -139,7 +139,7 @@ body{
     margin-left: 10px;
     border-radius: 25px;
     padding:15px;
-    background-image: url('images/png-transparent-social-media-linkedin-computer-icons-logo-social-network-social-media-blue-text-trademark-thumbnail.png');
+    background-image: 'images/png-transparent-social-media-linkedin-computer-icons-logo-social-network-social-media-blue-text-trademark-thumbnail.png';
     background-size: cover;
     background-position: center;
 }
